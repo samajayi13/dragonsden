@@ -32,57 +32,57 @@ var padding = { top: 20, right: 40, bottom: 0, left: 0 },
 //http://osric.com/bingo-card-generator/?title=HTML+and+CSS+BINGO!&words=padding%2Cfont-family%2Ccolor%2Cfont-weight%2Cfont-size%2Cbackground-color%2Cnesting%2Cbottom%2Csans-serif%2Cperiod%2Cpound+sign%2C%EF%B9%A4body%EF%B9%A5%2C%EF%B9%A4ul%EF%B9%A5%2C%EF%B9%A4h1%EF%B9%A5%2Cmargin%2C%3C++%3E%2C{+}%2C%EF%B9%A4p%EF%B9%A5%2C%EF%B9%A4!DOCTYPE+html%EF%B9%A5%2C%EF%B9%A4head%EF%B9%A5%2Ccolon%2C%EF%B9%A4style%EF%B9%A5%2C.html%2CHTML%2CCSS%2CJavaScript%2Cborder&freespace=true&freespaceValue=Web+Design+Master&freespaceRandom=false&width=5&height=5&number=35#results
 var data = [
   {
-    label: "Dell LAPTOP",
+    label: "5% off Quaker's products",
     value: 1,
     question:
       "What CSS property is used for specifying the area between the content and its border?",
   }, // padding
   {
-    label: "IMAC PRO",
+    label: "£10 Qauker's Gift Card",
     value: 2,
     question: "What CSS property is used for changing the font?",
   }, //font-family
   {
-    label: "SUZUKI",
+    label: "£100 Quaker's Gift Card",
     value: 3,
     question: "What CSS property is used for changing the color of text?",
   }, //color
   {
-    label: "HONDA",
+    label: "10% off Quaker's products",
     value: 4,
     question: "What CSS property is used for changing the boldness of text?",
   }, //font-weight
   {
-    label: "FERRARI",
+    label: "Mystery box",
     value: 5,
     question: "What CSS property is used for changing the size of text?",
   }, //font-size
   {
-    label: "APARTMENT",
+    label: "10% off Quaker's products",
     value: 6,
     question:
       "What CSS property is used for changing the background color of a box?",
   }, //background-color
   {
-    label: "IPAD PRO",
+    label: "£20 Quaker Gift Card",
     value: 7,
     question:
       "Which word is used for specifying an HTML tag that is inside another tag?",
   }, //nesting
   {
-    label: "LAND",
+    label: "Apple Macbook Pro",
     value: 8,
     question:
       "Which side of the box is the third number in: margin:1px 1px 1px 1px; ?",
   }, //bottom
   {
-    label: "MOTOROLLA",
+    label: "10% off Quaker's products",
     value: 9,
     question:
       "What are the fonts that don't have serifs at the ends of letters called?",
   }, //sans-serif
   {
-    label: "BMW",
+    label: "5% off Quaker's products",
     value: 10,
     question:
       "With CSS selectors, what character prefix should one use to specify a class?",
