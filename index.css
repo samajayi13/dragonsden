@@ -340,10 +340,12 @@ text {
     display: none;
 }
 
-  .product-in .row .col img {
-    width: 350px;
-    transform: translateX(14vw);
-  }
+  .products .row .col img {
+    transform: translateX(17vw);
+    width: 70vw;
+    margin-bottom: 20%;
+}
+ 
   .product-in-heading h3 {
     margin: auto;
     font-weight: 800;
