@@ -73,7 +73,7 @@ h1 {
 
 .baked-heading{
   margin-top:2vh;
-  margin-left:40vw;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -101,7 +101,7 @@ h1 {
 
 .product-in .row .col img{
   width:350px;
-  transform:translateX(20vw);
+  transform:translateX(10vw);
 }
 
 .product-in-heading{
@@ -173,7 +173,7 @@ img.nurtion{
 .buy button{
   display: inline-block;
   margin-right: 10px;
-  width:23vw;
+  width:20vw;
   color:white;
   height: 55px;
   font-weight: 800;
@@ -293,9 +293,20 @@ text {
 }
 
 
+.product-details-list-sm, .product-details-sm{
+  display:none;
+}
 
 
+.desc{
+  margin-top:10vh;
+}
 
+.desc .col img {
+  transform: translate(8vw) !important;
+  height: auto;
+  width: 100vw;
+}
 
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
@@ -309,7 +320,6 @@ text {
   }
 
   .nav-img{
-    transform: translateX(5vw);
     margin-bottom: 2vh;
   }
 
@@ -325,7 +335,7 @@ text {
 
   .baked-heading {
     margin-top: 2vh;
-    margin-left: 28%;
+    text-align: center;
     text-transform: uppercase;
     font-size: 4vh;
   }
@@ -348,7 +358,7 @@ text {
     width: 70vw;
     margin-bottom: 20%;
 }
- 
+
   .product-in-heading h3 {
     margin: auto;
     font-weight: 800;
@@ -361,12 +371,6 @@ text {
   }
   .desc {
     padding-left: 10px;
-  }
-
-  .desc img {
-    transform: translate(0px) !important;
-    height: auto;
-    width: 100vw;
   }
 
   img.nurtion {
@@ -429,6 +433,11 @@ text {
   width:100vw;
   overflow:hidden;
 }
+
+#prize-text{
+  font-size:14px;
+}
+
 
 }
 
