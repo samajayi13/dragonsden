@@ -84,6 +84,7 @@ h1 {
 }
 
 .products .row{
+  margin-left: -9vw;
   margin-bottom: 5vw;
 }
 .products .row .col img{
