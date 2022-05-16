@@ -9,6 +9,9 @@ header {
   justify-content: center;
 }
 
+a{
+  color: black;
+}
 .main-nav{
   padding-left: 2vw;
   padding-top:3vh;
