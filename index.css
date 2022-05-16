@@ -10,7 +10,7 @@ header {
 }
 
 a{
-  color: black;
+  color: black !important;
 }
 .main-nav{
   padding-left: 2vw;
