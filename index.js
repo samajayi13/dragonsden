@@ -42,11 +42,23 @@ var data = [
     value: 2,
     question: "What CSS property is used for changing the font?",
   }, //font-family
+   {
+    label: "No Prize Won",
+    value: 10,
+    question:
+      "With CSS selectors, what character prefix should one use to specify a class?",
+  },
   {
     label: "£100 Cash",
     value: 3,
     question: "What CSS property is used for changing the color of text?",
   }, //color
+   {
+    label: "No Prize Won",
+    value: 10,
+    question:
+      "With CSS selectors, what character prefix should one use to specify a class?",
+  },
   {
     label: "£100 ASOS Voucher",
     value: 4,
@@ -57,24 +69,48 @@ var data = [
     value: 5,
     question: "What CSS property is used for changing the size of text?",
   }, //font-size
+   {
+    label: "No Prize Won",
+    value: 10,
+    question:
+      "With CSS selectors, what character prefix should one use to specify a class?",
+  },
   {
     label: "12 Months Spotify Subscription",
     value: 6,
     question:
       "What CSS property is used for changing the background color of a box?",
   }, //background-color
+   {
+    label: "No Prize Won",
+    value: 10,
+    question:
+      "With CSS selectors, what character prefix should one use to specify a class?",
+  },
   {
     label: "12 Months Netlfix Subscription",
     value: 7,
     question:
       "Which word is used for specifying an HTML tag that is inside another tag?",
   }, //nesting
+   {
+    label: "No Prize Won",
+    value: 10,
+    question:
+      "With CSS selectors, what character prefix should one use to specify a class?",
+  },
   {
     label: "Apple Macbook Pro",
     value: 8,
     question:
       "Which side of the box is the third number in: margin:1px 1px 1px 1px; ?",
   }, //bottom
+   {
+    label: "No Prize Won",
+    value: 10,
+    question:
+      "With CSS selectors, what character prefix should one use to specify a class?",
+  },
   {
     label: "12 Months Disney+ Subscription",
     value: 9,
@@ -83,12 +119,6 @@ var data = [
   }, //sans-serif
   {
     label: "Quaker Bundle",
-    value: 10,
-    question:
-      "With CSS selectors, what character prefix should one use to specify a class?",
-  },
-  {
-    label: "No Prize Won",
     value: 10,
     question:
       "With CSS selectors, what character prefix should one use to specify a class?",
@@ -221,7 +251,12 @@ function spin(d) {
 }
 
 var showPrizeWon = (prize) => {
-  prizeText.innerText = `You have just won a brand new ${prize}`;
+  let text = "";
+  
+  text = prize === "No Prize Won" 
+    ?  "Sorry you didn't win a prize. Thank you for taking part in this competition"
+    :  `You have just won a brand new ${prize}`;
+  prizeText.innerText = text;
 };
 //make arrow
 svg
