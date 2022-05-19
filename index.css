@@ -345,6 +345,7 @@ text {
   }
 
   .nav-img{
+    transform: translate(8vw,1vh);
     margin-bottom: 2vh;
   }
 
