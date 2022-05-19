@@ -11,6 +11,9 @@ header {
   position: relative;
 }
 
+.nav-link{
+  display:none;
+}
 
 .itemcenter {
   flex: 0 1 auto;
@@ -463,6 +466,11 @@ text {
 .competitonlink,.productslink{
   display:none;
   }
+  
+  
+.nav-link{
+  display:block;
+}
 
 }
 
