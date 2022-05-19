@@ -11,7 +11,7 @@ header {
   position: relative;
 }
 
-.nav-link{
+.navbar{
   display:none;
 }
 
@@ -468,7 +468,7 @@ text {
   }
   
   
-.nav-link{
+.navbar{
   display:block;
 }
 
