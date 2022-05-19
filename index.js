@@ -255,7 +255,7 @@ var showPrizeWon = (prize) => {
   
   text = prize === "No Prize Won" 
     ?  "Sorry you didn't win a prize. Thank you for taking part in this competition"
-    :  `You have just won a brand new ${prize}`;
+    :  `You have just won ${prize}`;
   prizeText.innerText = text;
 };
 //make arrow
